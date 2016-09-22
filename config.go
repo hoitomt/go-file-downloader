@@ -29,7 +29,7 @@ func InitializeConfig(filePath string) *Config {
 }
 
 func (c *Config) extractPath(environment string) string {
-	environmtPaths := c.OutputPaths[environment]
-	extractPath := environmtPaths["extract-path"]
+	environmentPaths := c.OutputPaths[environment]
+	extractPath := environmentPaths["extract-path"]
 	return extractPath
 }

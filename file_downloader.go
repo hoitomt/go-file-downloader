@@ -11,7 +11,7 @@ import (
 func main() {
 	environment := "development"
 
-	configfile := flag.String("c", "config.ini", "Location of the hudupdater config file [config.ini]")
+	configfile := flag.String("c", "config.yml", "Location of the config file [config.yml]")
 
 	flag.Parse()
 
